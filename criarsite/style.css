@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: underline;
+}
+.botaodocarrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 16px;
+
+}
