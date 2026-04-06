@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="espaco">
+            <div class="marca">
+                <h1 class="logo">LojaVirtual</h1>
+            </div>
+
+            <nav class="menu">
+                <ul class="lista-menu">
+                    <li><a href="#" class="link-menu ativo">Início</a></li>
+                    <li><a href="#" class="link-menu">Produtos</a></li>
+                    <li><a href="#" class="link-menu">Sobre</a></li>
+                    <li><a href="#" class="link-menu">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="acoes">
+                <button class="botao-carrinho">
+                    Carrinho
+                    <span class="contador">2</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner principal -->
+    <section class="banner">
+        <div class="espaco">
+            <h2 class="titulo-banner">Promoção de Lançamento</h2>
+            <p class="texto-banner">Até 50% de desconto em todos os produtos</p>
+            <a href="#produtos" class="botao-principal">Ver Ofertas</a>
+        </div>
+    </section>
+
+    <!-- Lista de produtos -->
+    <main class="conteudo-principal" id="produtos">
+        <div class="espaco">
+            <h2 class="titulo-secao">Nossos Produtos</h2>
+
+            <div class="grade-produtos">
+                <!-- Produto 1 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="fone.png" alt="Fone de Ouvido Bluetooth" />
+                        <span class="etiqueta-novo">Novo</span>
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Fone de Ouvido Bluetooth</h3>
+                        <p class="descricao-produto">Som estéreo com graves potentes</p>
+                        <span class="preco-produto">R$ 199,90</span>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 2 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="mouse.png" alt="Mouse Gamer RGB" />
+                        <span class="etiqueta-promocao">-30%</span>
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Mouse Gamer RGB</h3>
+                        <p class="descricao-produto">3200 DPI ajustável</p>
+                        <div class="preco-promocional">
+                            <span class="preco-antigo">R$ 149,90</span>
+                            <span class="preco-atual">R$ 104,93</span>
+                        </div>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 3 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="teclado.png" alt="Teclado Mecânico" />
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Teclado Mecânico</h3>
+                        <p class="descricao-produto">Switches azul, iluminação LED</p>
+                        <span class="preco-produto">R$ 349,90</span>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 4 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="webcam.png" alt="Webcam Full HD" />
+                        <span class="etiqueta-novo">Novo</span>
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Webcam Full HD</h3>
+                        <p class="descricao-produto">1080p com microfone embutido</p>
+                        <span class="preco-produto">R$ 249,90</span>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 5 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="monitor.png" alt="Monitor 24\ LED" />
+                        <span class="etiqueta-promocao">-20%</span>
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Monitor 24" LED</h3>
+                        <p class="descricao-produto">Full HD 75Hz HDMI/VGA</p>
+                        <div class="preco-promocional">
+                            <span class="preco-antigo">R$ 899,90</span>
+                            <span class="preco-atual">R$ 719,92</span>
+                        </div>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 6 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="carregadorT.png" alt="Carregador Turbo" />
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Carregador Turbo</h3>
+                        <p class="descricao-produto">30W USB-C para celular</p>
+                        <span class="preco-produto">R$ 79,90</span>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 7 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="mochilaN.png" alt="Mochila para Notebook" />
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Mochila para Notebook</h3>
+                        <p class="descricao-produto">Até 15.6" impermeável</p>
+                        <span class="preco-produto">R$ 159,90</span>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+
+                <!-- Produto 8 -->
+                <article class="cartao-produto">
+                    <div class="imagem-produto">
+                        <img class="placeholder-imagem" src="hub4.png" alt="Hub USB 4 Portas" />
+                        <span class="etiqueta-promocao">-15%</span>
+                    </div>
+                    <div class="informacoes-produto">
+                        <h3 class="nome-produto">Hub USB 4 Portas</h3>
+                        <p class="descricao-produto">USB 3.0 com LED indicador</p>
+                        <div class="preco-promocional">
+                            <span class="preco-antigo">R$ 89,90</span>
+                            <span class="preco-atual">R$ 76,42</span>
+                        </div>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="espaco">
+            <p class="texto-rodape">&copy; 2026 LojaVirtual.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
